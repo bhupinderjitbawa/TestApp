@@ -10,10 +10,16 @@
         android:layout_height="wrap_content"
         android:background="@drawable/list_item_background">
 
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tvColor" />
+
         <com.bxs.testapp.CircularImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:id="@+id/imageView"
+            android:src="@drawable/profile"
             android:layout_margin="10dp" />
 
         <LinearLayout
@@ -26,19 +32,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="Bhupinderjit Singh"
                 android:id="@+id/textView"
                 android:textColor="#000"
                 android:textStyle="bold"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_marginBottom="5dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="B-102, Sector 19, Noida, Uttar Pradesh"
                 android:id="@+id/textView2"
-                android:textColor="#ff787878" />
+                android:textColor="#ff787878"
+                android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>
 
