@@ -77,7 +77,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             // listener for when this tab is selected.
             actionBar.addTab(
                     actionBar.newTab()
-                            .setText(mAppSectionsPagerAdapter.getPageTitle(i)).setIcon(R.drawable.loadingimg1)
+                            .setText(mAppSectionsPagerAdapter.getPageTitle(i))
+                            .setIcon(R.drawable.loadingimg1)
                             .setTabListener(this));
         }
     }
